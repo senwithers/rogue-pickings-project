@@ -1,0 +1,148 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+}
+
+/**** GRID ****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    clear: both;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 365px;
+    float: left;
+}
+
+#about {
+    border-bottom: 2px solid #dedbdc;
+    padding-bottom: 25px;
+}
+
+#footer {
+    clear: both;
+    border-top: 2px solid #dedbdc;
+    padding-top: 25px;
+}
+
+#reviews {
+    border-right: 2px solid #dedbdc;
+    border-left: 2px solid #dedbdc;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+#contact {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/*****HEADER*****/
+
+header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+.header-image {
+    width: 1200px;
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+    display: block;
+}
+
+nav {
+    float: right;
+    text-align: center;
+    word-spacing: 30px;
+}
+
+nav ul li{
+    display: inline;
+    
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    font-weight: bold;
+}
+
+/**** TEXT *****/
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#menu p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #77a466;
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+    padding-right: 15px;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/***** FOOTER *****/
+
+footer span {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    font-weight: normal;
+    text-transform: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer { 
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+}
